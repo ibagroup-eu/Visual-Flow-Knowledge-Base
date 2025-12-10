@@ -7,7 +7,7 @@ The Jobs overview screen displays the following information:
 * Job Name
 * Job Last run/Last finished/Last edit
 * Job Status
-* Resource Utilization (CPU/Memory)
+* Resource Utilization (CPU/Memory) - applicable for Global version only
 * Available Actions (Run/Job Designer/Logs/Copy/Job History/ Delete)
 
 A job has a certain status at various phases of execution:
@@ -18,6 +18,7 @@ A job has a certain status at various phases of execution:
 * Succeeded
 * Failed
 * Unknown (This status appears very rarely in case of undefined error)
+* Debugging (applicable for Global version in Job Interactive mode only)
 
 **Notes**:
 
