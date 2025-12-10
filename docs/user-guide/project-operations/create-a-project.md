@@ -9,9 +9,9 @@ To create a project, you need to push the “+” button.
 
 With the “+” button pushed, you get to Create Project Form to enter basic project settings:
 
-* Project Name
-* Project Description
-* Requests (CPU/Memory)
+* Project Name
+* Project Description
+* Requests (CPU/Memory)
 * Limits (CPU/Memory)
 
 ![](../../assets/user-guide-img/image3.png)
