@@ -1,6 +1,6 @@
 # Roles and authorizations
 
-The following roles are available in the application:
+The following roles are available in the Visual Flow application (Global version):
 
 *   Viewer
 *   Operator
@@ -19,3 +19,5 @@ project.
 | **Operator** | View All | View All / execute jobs | View All / execute pipelines |
 | **Editor** | Edit All but Users/Roles | Edit / execute jobs | Edit / execute pipelines |
 | **Admin** | Edit All | Edit / execute jobs | Edit / execute pipelines |
+
+**Major note**: user roles are not supported in Visual Flow for Databricks 0.2. A user having Super-admin authority can access the application only.
