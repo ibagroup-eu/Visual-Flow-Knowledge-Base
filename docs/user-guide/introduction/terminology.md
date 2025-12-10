@@ -6,7 +6,7 @@
 
 *   **Extract** is the process of reading data from a database. In this stage, the data is collected, often from multiple and different types of sources.
 *   **Transform** is the process of converting the extracted data from its previous form into the form needed to place it into another database.
-*   **Load** is the process of writing the data into the target database.
+*   **Load** is the process of writing the data into the target database.
 
 ## Job
 
@@ -32,12 +32,14 @@ In Visual Flow, the available stages are:
 * Change Data Capture
 * Cache
 * Validate
+* AI Text Task
 
 ## Pipeline
 
-A **pipeline** is a compound of multiple jobs and can be run. In Visual Flow, the user can use such stages as:
+A **pipeline** is a compound of multiple jobs or other pipelines and can be run. In Visual Flow, the user can use such stages as:
 
 * Job
+* Pipeline
 * Container
 * Notification
 * Wait
