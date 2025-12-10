@@ -1,15 +1,19 @@
-#Manage Project Settings
+# Manage Project Settings
 
 The Settings submenu contains:
 
 * Basic
 * Parameters
 * Connections
-* Users/Roles
+* Users/Roles (Global version only)
 
 1) The Basic is already there after project creation. The Edit button turns on the edit mode for updates.
 
+Visual Flow Global
 ![](../../assets/user-guide-img/image7.png)
+
+Visual Flow for Databricks
+![](../../assets/user-guide-img/image98.png)
 
 2) The Parameters stores values required for the entire project, e.g., JDBC connection, DB2 credentials, or
 table schema can be the same for multiple jobs within a project and therefore stored at the project level.
