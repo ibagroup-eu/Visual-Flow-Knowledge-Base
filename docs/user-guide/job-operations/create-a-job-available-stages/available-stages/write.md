@@ -10,10 +10,13 @@ the Cloud Object Storage file. Fill required parameters for the IBM COS storage.
 Available storage values for the Write stage are:
 
 * AWS S3
+* Azure Blob Storage
 * Cassandra
 * ClickHouse
+* Databricks
 * DB2
 * Elasticsearch
+* Google Cloud Storage
 * IBM COS
 * Local file
 * Mongo
@@ -30,7 +33,7 @@ IBM COS storage has two options of Authentication type: *HMAC* and *IAM*.
 If *HMAC* is selected, you should fill accessKey and secretKey.
 If *IAM* is selected, iamApiKey and iamServiceId should be entered.
 
-For the storages *IBM COS* and *AWS S3* the function *Partition By* can be used in the *Write* stage. It partitions the output
+For the storages *AWS S3*, *Azure Blob Storage*, *Google Cloud Storage* and *IBM COS* the function *Partition By* can be used in the *Write* stage. It partitions the output
 on the file system by given columns. If specified, the output is laid out on the file system similar to Hive's partitioning scheme.
 
 As an example, when we partition a dataset by year and then month, the directory layout looks like this:
@@ -74,14 +77,17 @@ table but also from other tables that use the target table's primary key as a fo
 
 File format is to choose a format of the destination file. Available formats are:
 
-* CSV
-* JSON
-* Parquet
-* ORC
-* Text
-* Avro
 
-Confirm the stage by pushing **Confirm** on the panel. Now there are two stages to connect.
+* Avro
+* CSV
+* Delta
+* JSON
+* ORC
+* Parquet
+* Text
+
+
+Confirm the stage by pushing *Confirm* on the panel. Now there are two stages to connect.
 
 ![](../../../../assets/user-guide-img/image28.png)
 
@@ -110,3 +116,4 @@ Other stages available are:
 * Change Data Capture
 * Cache
 * Validate
+* AI Text Task
