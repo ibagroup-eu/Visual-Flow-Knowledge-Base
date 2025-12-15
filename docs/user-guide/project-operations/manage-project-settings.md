@@ -28,9 +28,7 @@ delete, ping). Also, you can create a new connection with the Create Connection 
 ![](../../assets/user-guide-img/image9.png)
 
 4) The Users/Roles is meant for user access management or to view user access depending on your
-authorization. Users cannot set roles to themselves. This operation can be performed by Admin or Super-
-admin only. So if you try to change your role, you will get the error message: “You cannot change your role”.
-The Edit button and therefore Edit mode is only available for an Admin within the project or for a Super-
-admin.
+authorization. Users cannot set roles to themselves. This operation can be performed by Admin or Super-admin only. So if you try to change your role, you will get the error message: “You cannot change your role”.
+The Edit button and therefore Edit mode is only available for an Admin within the project or for a Super-admin.
 
 ![](../../assets/user-guide-img/image10.png)
